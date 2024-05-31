@@ -1,0 +1,11 @@
+body{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.header{
+    background-color: antiquewhite;
+    padding: 5px;
+}
