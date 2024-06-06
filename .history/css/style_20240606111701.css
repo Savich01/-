@@ -372,7 +372,7 @@ p.fff{
   top: 41%;
   left: 100px;
 }
-.saturn{
+.Saturn{
   position: absolute;
   top: 6%;
   left: 23%;
@@ -428,7 +428,7 @@ p.fff{
   margin-bottom: 20px;
 }
 
-.section-item{
+.section-9-item{
   background-color: purple ;
   display: flex;
   flex-wrap: wrap;
@@ -438,43 +438,43 @@ p.fff{
   margin: 30px auto 30px auto;
 }
 
-.section-item-block1{
+.section-9__item-block1{
   width: 50px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block2{
+.section-9__item-block2{
   width: 120px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block3{
+.section-9__item-block3{
   width: 50px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block4 {
+.section-9__item-block4 {
   width: 120px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block5 {
+.section-9__item-block5 {
   width: 50px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block6 {
+.section-9__item-block6 {
   width: 120px;
   height: 50px;
   background-color: tomato;
 }
-.section-item-block7 {
+.section-9__item-block7 {
   width: 50px;
   height: 50px;
   background-color: tomato;
 }
 
-.section-item2{
+.section-9__item2{
   background-color: purple ;
   display: flex;
   flex-wrap: wrap;
@@ -484,7 +484,7 @@ p.fff{
   padding: 20px;
   margin: 30px auto 30px auto;
 }
-.section-item3{
+.section-9__item3{
   background-color: purple ;
   display: flex;
   flex-wrap: wrap;
@@ -494,7 +494,7 @@ p.fff{
   padding: 20px;
   margin: 30px auto 30px auto;
 }
-.section-item4{
+.section-9__item4{
   background-color: purple ;
   display: flex;
   flex-wrap: wrap;
@@ -504,7 +504,7 @@ p.fff{
   padding: 20px;
   margin: 30px auto 30px auto;
 }
-.section-item5 {
+.section-9__item5 {
   background-color: purple;
   display: flex;
   flex-wrap: wrap;
@@ -514,7 +514,7 @@ p.fff{
   padding: 20px;
   margin: 30px auto 30px auto;
 }
-.section-item6 {
+.section-9__item6 {
   background-color: purple;
   display: flex;
   flex-wrap: wrap;
@@ -525,7 +525,7 @@ p.fff{
   margin: 30px auto 30px auto;
 }
 
-.section-item7{
+.section-9__item7{
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;

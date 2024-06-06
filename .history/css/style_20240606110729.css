@@ -372,7 +372,7 @@ p.fff{
   top: 41%;
   left: 100px;
 }
-.saturn{
+.Saturn{
   position: absolute;
   top: 6%;
   left: 23%;
@@ -764,13 +764,13 @@ p.fff{
   justify-content: center;
 }
 
-.section-10__satebar-right{
+.sitebar-right{
   border: 1px solid #000;
   width: 30%;
   background-color: teal;
   text-align: center;
 }
-.section-10__footer{
+.section-footer{
   border: 1px solid #000;
   height: 50px;
   background-color: tan;
@@ -783,44 +783,20 @@ p.fff{
   margin-top: 0px;
 }
 
-.section-10__footer{
+.section-footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   height: 60px;
 }
-.section-10__footer-footer1{
+.section-footer1{
   border: 1px solid #000;
   padding: 6px;
   background-color: #fff;
   height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer2{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer3{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer4{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 /* ==========SECTION-11========================== */

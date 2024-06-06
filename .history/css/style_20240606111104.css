@@ -372,7 +372,7 @@ p.fff{
   top: 41%;
   left: 100px;
 }
-.saturn{
+.Saturn{
   position: absolute;
   top: 6%;
   left: 23%;
@@ -791,30 +791,6 @@ p.fff{
   height: 60px;
 }
 .section-10__footer-footer1{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer2{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer3{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer4{
   border: 1px solid #000;
   padding: 6px;
   background-color: #fff;

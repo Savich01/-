@@ -372,7 +372,7 @@ p.fff{
   top: 41%;
   left: 100px;
 }
-.saturn{
+.Saturn{
   position: absolute;
   top: 6%;
   left: 23%;
@@ -396,7 +396,6 @@ p.fff{
   background-color: #fff;
   padding: 10px;
   display: flex;
-  align-items: flex-end;
 }
 
 .section-block1{
@@ -722,12 +721,12 @@ p.fff{
   margin-bottom: 20px;
 }
 
-.section-10__header{
+.section-header{
   border: 1px solid #000;
   text-align: center;
   background-color: tan;
 }
-.section-10__main{
+.section-main{
   border: 2px solid #000;
   width: 70%;
   background-color: yellow;
@@ -737,7 +736,8 @@ p.fff{
   flex-direction: column;
   justify-content: space-between;
 }
-.section-10__main-span{
+.section-main--span{
+  /* display: inline-block; */
   background-color: red;
   width: 49%;
   height: 50px;
@@ -745,16 +745,17 @@ p.fff{
   margin-bottom: 10px;
 }
 
-.section-10__wrapper{
+.section-main--wrapper{
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   align-items: flex-end;
 }
-.section-10__wrapp{
+.section-main--wrapp{
   display: flex;
   justify-content: space-between;
 }
-.section-10__main-block{
+.section-main--block{
   background-color: aqua;
   width: 100%;
   height: 50px;
@@ -764,13 +765,13 @@ p.fff{
   justify-content: center;
 }
 
-.section-10__satebar-right{
+.sitebar-right{
   border: 1px solid #000;
   width: 30%;
   background-color: teal;
   text-align: center;
 }
-.section-10__footer{
+.section-footer{
   border: 1px solid #000;
   height: 50px;
   background-color: tan;
@@ -779,48 +780,22 @@ p.fff{
   display: flex;
   justify-content: space-between;
   height: 250px;
-  padding: 0px;
-  margin-top: 0px;
 }
 
-.section-10__footer{
+.section-footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   height: 60px;
 }
-.section-10__footer-footer1{
+.section-footer1{
   border: 1px solid #000;
   padding: 6px;
   background-color: #fff;
   height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer2{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer3{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-.section-10__footer-footer4{
-  border: 1px solid #000;
-  padding: 6px;
-  background-color: #fff;
-  height: 50px;
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 /* ==========SECTION-11========================== */
@@ -832,7 +807,7 @@ p.fff{
   margin-bottom: 20px;
 }
 
-.section-11__parent{
+.section-parent{
   background-color: BurlyWood;
   max-width: 500px;
   height: 200px;
@@ -840,7 +815,7 @@ p.fff{
   position: relative;
 }
 
-.section-11__parent-child{
+.section-parent--child{
   width: 150px;
   background-color: #fff;
   height: 75px;
@@ -851,7 +826,7 @@ p.fff{
   z-index: 2;
 }
 
-.section-11__parent2 {
+.section-parent2 {
   background-color: BurlyWood;
   max-width: 500px;
   height: 200px;
@@ -860,7 +835,7 @@ p.fff{
   justify-content: center;
   align-items: center;
 }
-.section-11__parent2-child2 {
+.section-parent--child2 {
   width: 150px;
   background-color: #fff;
   height: 75px;
@@ -882,20 +857,20 @@ p.fff{
   position: relative;
   overflow: hidden;
 }
-.background__michen1{
+.michen1{
   width: 40%;
   position: absolute;
   right: -50px;
   top: -35px;
 }
-.background__michen2{
+.michen2 {
   width: 40%;
   position: absolute;
   bottom: -30px;
   left: -90px;
 }
 
-/* ==========SECTION-13========================== */
+/* ==========SECTION-12========================== */
 
 .section-13 {
   background-color: antiquewhite;
@@ -903,7 +878,7 @@ p.fff{
   padding: 20px;
   margin-bottom: 20px;
 }
-.section-13__padding{
+.section-block--padding{
   background-color: thistle;
   max-width: 200px;
   height: 200px;
@@ -918,7 +893,7 @@ p.fff{
   /* margin: 1px 2px 3px 4px; задает внешние отступы сверху 1px, справа 2px, снизу 3px, слева 4px */
 }
 
-/* ==========SECTION-14========================== */
+/* ==========SECTION-13========================== */
 
 .section-14 {
   background-color: antiquewhite;
@@ -927,7 +902,7 @@ p.fff{
   margin-bottom: 20px;
 }
 
-.section-14__wrapper{
+.section-14_wrapper{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px 20px;
@@ -935,11 +910,11 @@ p.fff{
   background-color: gray;
   padding: 20px
 }
-.section-14__item{
+.section-14_itme{
   border: 1px solid #000;
   padding: 10px;
 }
-.section-14__item:nth-child(1){
+.section-14_itme:nth-child(1){
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -953,7 +928,7 @@ p.fff{
   color: #fff;
 }
 
-.section-14__item:nth-child(2) {
+.section-14_itme:nth-child(2) {
   grid-column-start: 2;
   grid-column-end: 4;
   display: flex;
@@ -964,7 +939,7 @@ p.fff{
   color: #fff;
   border-radius: 10px;
 }
-.section-14__item:nth-child(3) {
+.section-14_itme:nth-child(3) {
   grid-column-start: 2;
   grid-column-end: 3;
   display: flex;
@@ -975,7 +950,7 @@ p.fff{
   color: #fff;
   border-radius: 10px;
 }
-.section-14__item:nth-child(4) {
+.section-14_itme:nth-child(4) {
   grid-column-start: 2;
   grid-column-end: 3;
   display: flex;
@@ -986,7 +961,7 @@ p.fff{
   color: #fff;
   border-radius: 10px;
 }
-.section-14__item:nth-child(5) {
+.section-14_itme:nth-child(5) {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -999,7 +974,7 @@ p.fff{
   color: #fff;
   border-radius: 10px;
 }
-.section-14__item:nth-child(6) {
+.section-14_itme:nth-child(6) {
   grid-column-start: 2;
   grid-column-end: 4;
   display: flex;
@@ -1011,7 +986,7 @@ p.fff{
   border-radius: 10px;
 }
 
-.section-14__wrapper2{
+.section-14_wrapper2{
   background-color: gray;
   padding: 20px;
   margin: 20px auto 20px auto;
@@ -1024,12 +999,12 @@ p.fff{
   'nav    section  aside' 
   'nav    footer   footer';
 }
-.section-14__wrapper2 > *{
+.section-14_wrapper2 > *{
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #000;
 }
-.section-14__nav{
+.nav-item1{
   grid-area: nav;
   background-color: blue;
   color: #fff;
@@ -1038,7 +1013,7 @@ p.fff{
   align-items: center;
   font-size: 30px;
 }
-.section-14__header{
+.header-item2{
   grid-area: header;
   background-color: blue;
   color: #fff;
@@ -1047,7 +1022,7 @@ p.fff{
   align-items: center;
   font-size: 30px;
 }
-.section-14__main{
+.main-item3{
   grid-area: main;
   background-color: blue;
   color: #fff;
@@ -1056,7 +1031,7 @@ p.fff{
   align-items: center;
   font-size: 30px;
 }
-.section-14__section{
+.section-itme4{
   grid-area: section;
   background-color: blue;
   color: #fff;
@@ -1065,7 +1040,7 @@ p.fff{
   align-items: center;
   font-size: 30px;
 }
-.section-14__aside{
+.aside-item5{
   grid-area: aside;
   background-color: blue;
   color: #fff;
@@ -1074,7 +1049,7 @@ p.fff{
   align-items: center;
   font-size: 30px;
 }
-.section-14__footer{
+.footer-item6{
   grid-area: footer;
   background-color: blue;
   color: #fff;
@@ -1084,7 +1059,7 @@ p.fff{
   font-size: 30px;
 }
 
-/* ==========SECTION-15========================== */
+/* ==========SECTION-13========================== */
 
 .section-15 {
   background-color: antiquewhite;
@@ -1103,7 +1078,7 @@ p.fff{
   background-color: aqua;
   padding: 10px;
 }
-.grit-container__item{
+.grit-container_item{
   border: 3px solid #000;
   height: 100px;
   width: 100px;
@@ -1111,7 +1086,7 @@ p.fff{
   color: #fff;
 }
 
-.grit-container-2{
+.grit-container2{
   display: grid;
   grid-template-columns: repeat(3, 2fr);
   grid-template-rows: repeat(3, 150px);
@@ -1121,7 +1096,7 @@ p.fff{
   background-color: aqua;
   padding: 10px;
 }
-.grit-container-2__item{
+.grit-container_item2{
   border: 3px solid #000;
   width: 100px;
   height: 100px;
@@ -1145,7 +1120,7 @@ p.fff{
   background-color: red;
   color: #fff;
 }
-.grit-container-3__item:nth-child(5){
+.grit-container-3__item3:nth-child(5){
   justify-self: center;
   align-self: center;
 }
